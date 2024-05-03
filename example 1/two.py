@@ -1,3 +1,4 @@
+# When module one gets loaded, it's __name__ is 'one' and not '__main__
 import one
 
 print('top-level in two')
